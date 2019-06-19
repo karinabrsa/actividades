@@ -1,0 +1,29 @@
+/*al ponerle float a col 1 y 2 el contenedor se sube
+porque es como si quedara vacio*/
+.contenedor{
+    padding: 5px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+.img{
+    background-color: #666;
+    height: 180px;
+}
+.col-nivel1{
+    margin: 5px;
+    width: 380px;
+    float: left;
+}
+.col-nivel2{
+    margin: 5px;
+    width: 195px;
+    float: left;
+}
+/*para llamarlo en el contenedor se le agrega 
+after, content y display*/
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
