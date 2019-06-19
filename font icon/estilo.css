@@ -1,0 +1,65 @@
+/*general*/
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/*menu*/
+.menu{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: #999;
+    color: #f4f4f4;
+}
+/*lista*/
+.lista{
+    margin-bottom: 20px;
+}
+.lista li{
+    border: 1px solid #999;
+    border-top: transparent;
+    width: 180px;
+}
+.lista li a{
+    color: #999;
+    display: block;
+    padding: 10px 0px 10px 10px;
+}
+/*al primero de la lista*/
+.lista li:first-child{
+     border-top: 1px solid #999;
+     border-radius:  10px 10px 0px 0px;
+}
+.lista li:last-child{
+    border-radius: 0px 0px 10px 10px;
+}
+/*Para trabajar con los impares de la lista*/
+.lista li:nth-child(odd){
+    background-color: #f4f4f4;
+}
+/*redes*/
+.redes li{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #00aced;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.redes li a{
+    font-size: 24px;
+    color:#fff;
+    line-height: 50px;
+}
